@@ -1,0 +1,12 @@
+FROM ubuntu
+
+ENTRYPOINT ["sleep"]
+
+CMD ["10"]
+
+
+
+
+#build
+
+# docker build . -t ubuntu-sleep
